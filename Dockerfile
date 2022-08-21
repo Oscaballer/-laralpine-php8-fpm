@@ -24,6 +24,11 @@ RUN apk add --no-cache \
   php8-xml \
   php8-xmlreader \
   php8-zlib \
+  php8-fileinfo \
+  php8-xmlwriter \
+  php8-tokenizer \
+  php8-pdo_mysql \
+  php8-exif \
   supervisor
 
 RUN ln -s /usr/bin/php8 /usr/bin/php

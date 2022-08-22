@@ -29,6 +29,11 @@ RUN apk add --no-cache \
   php8-tokenizer \
   php8-pdo_mysql \
   php8-exif \
+  php8-iconv \
+  php8-zip \
+  php8-simplexml \
+  php8-soap \
+  php8-sodium \
   supervisor
 
 RUN ln -s /usr/bin/php8 /usr/bin/php
